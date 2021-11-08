@@ -1,0 +1,201 @@
+a:link 
+{ 
+    text-decoration:none; 
+} 
+
+div.border a {
+    font-size: 35px;
+    width: 12%;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 27px;
+    height: 44px;
+    opacity: .8;
+    background: no-repeat;
+    color: white;
+
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+
+nav.funhead-nav {
+    background: #2d2d2d;
+}
+
+img.image {
+    height: 747px;
+    width: 549px;
+    margin-left: 550px;
+
+}
+
+img.fr{
+    height: 50px;
+    width: 50px;
+
+
+}
+
+span.contact{
+    font-size: 120%;
+
+}
+
+img.logo{
+    height: 275px;
+    width: 600px;
+    margin-left: 35%;
+
+
+}
+
+img.king{
+    height: 374px;
+    width: 712px;
+    margin-left: 10%;
+    display: inline-block;
+
+}
+
+img.kingdom{
+    height: 374px;
+    width: 770px;
+    display: inline-block;
+
+}
+
+video.video {
+    margin-left: 23%;
+
+
+}
+
+figure {
+    margin-left: 40%;
+}
+
+img.banniere{
+    height: 400px;
+    width: 1200px;
+    margin-left: 18%;
+
+}
+
+body.blur {
+    overflow: hidden;
+    margin: 0;
+    text-align: left;
+}
+body.blur:before {
+    content: "";
+    position: absolute;
+    width : 150%;
+    height: 150%;
+    background: inherit;
+    z-index: -1;
+    margin-left: -2%;
+
+    filter        : blur(15px);
+    -moz-filter   : blur(15px);
+    -webkit-filter: blur(15px);
+    -o-filter     : blur(15px);
+
+    
+}
+
+figcaption.titre {
+    font-size: 10%;
+    
+}
+
+div.histoire {
+    margin-left: 2%;
+}
+
+h1.histoire {
+    color: chocolate;
+
+}
+
+img.histoire {
+    margin-left: 25%;
+}
+
+img.dessin {
+    height: 260px;
+    width: 390px;
+}
+
+div.CV {
+    margin-left: 2%;
+}
+
+div.manga {
+    margin-left: 2%;
+}
+
+h1.manga {
+    color: chocolate;
+}
+
+h1.manga2 {
+    color: chocolate;
+}
+
+img.manga {
+    display: inline-block;
+    margin-left: 25%;
+}
+
+img.manga2 {
+    display: inline-block;
+    height: 500px;
+    width: 359px;
+}
+
+img.saison1 {
+    width: 300px;
+    height: 428px;
+    margin-left: 11%;
+}
+
+h1.saison {
+    color: chocolate;
+}
+
+div.saison {
+    margin-left: 2%;
+}
+
+input.test	{
+	width: 90px;
+
+}
+
+input.email	{
+	width: 275px;
+}
+input.ville {
+	width: 135px;
+}
+
+div.shadowbox {
+	width: 31em;
+	border: 1px solid #333;
+	padding: 16px 24px;
+    margin-top: 10%;
+    margin-left: 35%;
+  }
+  span {
+	line-height: 25px;
+
+  }
