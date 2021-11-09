@@ -185,20 +185,22 @@ img.dessin {
 
 input.email	{
 	width: 275px;
+
 }
 input.ville {
 	width: 135px;
+    
 }
 
 div.shadowbox {
-	width: 31em;
-	border: 1px solid #333;
-	padding: 16px 24px;
-    margin-top: 10%;
-    margin-left: 35%;
-  }
-  span {
-	line-height: 25px;
+	width: 15%;
+	border: 5px solid #333;
+	padding: 128px 144px;
+    margin-top: 15%;
+    margin-left: 32%;
 
   }
+span {
+    line-height: 25px;
 
+}
