@@ -3,18 +3,17 @@ a:link
     text-decoration:none; 
 } 
 
+/* Barre de Navigation */
+
 div.border a {
     font-size: 35px;
     width: 12%;
     margin: 30px;
     text-align: center;
-    position: relative;
-    z-index: 1;
     display: inline-block;
     padding: 0 27px;
     height: 44px;
     opacity: .8;
-    background: no-repeat;
     color: white;
 
 }
@@ -29,32 +28,37 @@ li {
 
 nav.funhead-nav {
     background: #2d2d2d;
-}
-
-img.image {
-    height: 747px;
-    width: 549px;
-    margin-left: 550px;
 
 }
 
-img.fr{
-    height: 50px;
-    width: 50px;
-
-
-}
-
-span.contact{
-    font-size: 120%;
+body.blur {
+    overflow: hidden;
+    margin: 0;
+    text-align: left;
 
 }
+body.blur:before {
+    content: "";
+    position: absolute;
+    width : 150%;
+    height: 150%;
+    background: inherit;
+    z-index: -1;
+    margin-left: -2%;
+
+    filter        : blur(15px);
+    -moz-filter   : blur(15px);
+    -webkit-filter: blur(15px);
+    -o-filter     : blur(15px);
+  
+}
+
+/* Accueil */
 
 img.logo{
     height: 275px;
     width: 600px;
     margin-left: 35%;
-
 
 }
 
@@ -73,15 +77,34 @@ img.kingdom{
 
 }
 
+/* CV */
+
+img.image {
+    height: 747px;
+    width: 549px;
+    margin-left: 550px;
+
+}
+
+img.fr{
+    height: 50px;
+    width: 50px;
+
+}
+
+div.CV {
+    margin-left: 2%;
+    
+}
+
+/* Vidéo */
+
 video.video {
     margin-left: 23%;
 
-
 }
 
-figure {
-    margin-left: 40%;
-}
+/* Music */
 
 img.banniere{
     height: 400px;
@@ -90,54 +113,11 @@ img.banniere{
 
 }
 
-body.blur {
-    overflow: hidden;
-    margin: 0;
-    text-align: left;
-}
-body.blur:before {
-    content: "";
-    position: absolute;
-    width : 150%;
-    height: 150%;
-    background: inherit;
-    z-index: -1;
-    margin-left: -2%;
-
-    filter        : blur(15px);
-    -moz-filter   : blur(15px);
-    -webkit-filter: blur(15px);
-    -o-filter     : blur(15px);
-
-    
+figure {
+    margin-left: 40%;
 }
 
-figcaption.titre {
-    font-size: 10%;
-    
-}
-
-div.histoire {
-    margin-left: 2%;
-}
-
-h1.histoire {
-    color: chocolate;
-
-}
-
-img.histoire {
-    margin-left: 25%;
-}
-
-img.dessin {
-    height: 260px;
-    width: 390px;
-}
-
-div.CV {
-    margin-left: 2%;
-}
+/* Manga */
 
 div.manga {
     margin-left: 2%;
@@ -162,6 +142,8 @@ img.manga2 {
     width: 359px;
 }
 
+/* Anime */
+
 img.saison1 {
     width: 300px;
     height: 428px;
@@ -176,10 +158,30 @@ div.saison {
     margin-left: 2%;
 }
 
-input.test	{
-	width: 90px;
+/* Histoire */
+
+div.histoire {
+    margin-left: 2%;
 
 }
+
+h1.histoire {
+    color: chocolate;
+
+}
+
+img.histoire {
+    margin-left: 25%;
+
+}
+
+img.dessin {
+    height: 260px;
+    width: 390px;
+
+}
+
+/* Contact */
 
 input.email	{
 	width: 275px;
@@ -199,3 +201,4 @@ div.shadowbox {
 	line-height: 25px;
 
   }
+
